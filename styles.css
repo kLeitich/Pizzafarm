@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.navigation{
+    background-image: url(assets/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
