@@ -12,7 +12,7 @@
 <body>
     <Section class="navigation bar pb-2">
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand text-light" href="#">Navbar</a>
+            <a class="navbar-brand text-light" href="#">PIZZAFARM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,8 +42,9 @@
         <div class="pizzaimg col-md-4">
             <img src="assets/nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg" style="width:100%;" alt="">
         </div>
-        <form class="input text  col-md-4">
-            <select class="form-select" aria-label="Default select">
+        <div class="pizza1 col-md-4">
+          <form class="input text  ">
+            <select class="form-select1" aria-label="Default select">
                 <option selected>Open this select size</option>
                 <option value="small">small</option>
                 <option value="medium">medium</option>
@@ -73,57 +74,71 @@
               </select>
               <label for="noOfPizza">Number of pizza:</label>
                 <input type="number" id="noOfPizza" name="noOfPizza"><br>
-              <button type="submit" class="btn btn-primary">Place order</button>
-        </form>
-        <section class="Delivery col-md-4">
-          <div class="optiondelivery d-flex  m-4">
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="customCheck1">
-              <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
-            </div>
-            <div class="custom-control custom-checkbox m-4">
-              <input type="checkbox" class="custom-control-input" id="customCheck1">
-              <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
-            </div>
-          </div><br>
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputname4">Full names</label>
-                <input type="text" class="form-control" id="inputname4" placeholder="Full name..">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-              <label for="inputAddress2">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="form-group col-md-4">
-                <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>Thika Road</option>
-                  <option>Mombasa Road</option>
-                  <option>Ngong Road</option>
-                  <option>Wayaiki Way</option>
-                  <option>parklands</option>
-                  <option>Jogoo Road</option>
-                  <option>CBD</option>
-                </select>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Checkout</button>
+              <button type="submit" class=" placeorder btn btn-primary">Place order</button>
           </form>
-        </section>
+          <div class="output">
+            <p>Your TOTAL IS : <span class="output"></span></p>
+          </div>
+
+        </div>
+        <div class="Delivery col-md-4">
+          <div class="optiondelivery d-flex">
+            <form class="deliveryoption">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="option" id="flexRadioDefault1" value="pickup">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Pick up
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="option" id="flexRadioDefault2" value="Delivery">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Delivery to Doorstep
+                </label>
+              </div>
+            </form>
+          </div><br>
+          <div class="deliveryform">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputname4">Full names</label>
+                  <input type="text" class="form-control" id="inputname4" placeholder="Full name..">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>Thika Road</option>
+                    <option>Mombasa Road</option>
+                    <option>Ngong Road</option>
+                    <option>Wayaiki Way</option>
+                    <option>parklands</option>
+                    <option>Jogoo Road</option>
+                    <option>CBD</option>
+                  </select>
+                </div>
+              </div>
+              <button type="submit" class="checkout btn btn-primary">Checkout</button>
+            </form>
+          </div>
+        </div>
     </section>
-    
+<script src="scripts.js"></script>
+
 </body>
 </html>
