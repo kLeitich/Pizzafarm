@@ -1,5 +1,5 @@
 # PIZZAFARM
-
+>
 
 ## Project Description
 A model fullstack web application that simulates activities of an order for pick-up or delivery pizza business.
@@ -17,7 +17,7 @@ Here is a run through of how to set up the application
 * Step 3 : Open the index.html file to view the application on your preferred web browser
 ## Other Usage / Live link
 * Get access to the Internet/Browser.
-* Click on live link provided : 
+* Click on live link provided : https://kleitich.github.io/Pizzafarm/
 ## Built With
 * BOOTSTRAP 5.
 * Javascript.
@@ -33,4 +33,4 @@ Contact me via Email: kevin.leitich@student.moringaschool.com
 
 ## License 
 The project is served under the MIT LICENSE copyright &copy; 2022 Kevin.
-* (License)[LICENSE]
+View <a href="https://github.com/kLeitich/Pizzafarm/blob/main/LICENSE">license.</a>
