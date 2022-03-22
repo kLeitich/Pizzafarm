@@ -53,14 +53,3 @@ form.addEventListener('submit',(event)=>{
     output.append( 'Your TOTAL IS:'+ amount+ " KSh");
   
   });
-//   form2.addEventListener('click',()=>{
-//     // event.preventDefault();
-//     document.getElementById("flexRadioDefault1").click(function(){
-//         $(".form-group").hide();
-//       });
-      
-//       document.getElementById("flexRadioDefault2").click(function(){
-//         $(".form-group").show();
-//       });
-  
-//   });
