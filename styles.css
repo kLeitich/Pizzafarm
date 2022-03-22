@@ -16,3 +16,17 @@
 .output{
     background-color: wheat;
 }
+.contact{
+    background-image: url(assets/inna-podolska-JspLKUauwSI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    color: white;
+}
+.contact ::placeholder{
+    color: blue;
+    font-weight: bold;
+}
+.design{
+    background-color: wheat;
+}
