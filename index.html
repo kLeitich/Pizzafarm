@@ -76,32 +76,26 @@
               </select>
               <label for="noOfPizza">Number of pizza:</label>
                 <input type="number" id="noOfPizza" name="noOfPizza" required><br>
+                <div class="optiondelivery ">
+                  <select class="form-select" id="option" required>
+                    <option selected>select delivery option</option>
+                    <option value="0">Pick up</option>
+                    <option value="200">Delivery to doorstep</option>
+                  </select>
+                </div>
               <button type="submit" class=" placeorder btn btn-primary">Place order</button>
           </form>
         </div>
-        <div class="Delivery col-md-4">
+      <div class="Delivery col-md-4">
             <form id="deliveryForm">
-              <div class="optiondelivery ">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="option" id="flexRadioDefault1" value="pickup">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Pick up
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="option" id="flexRadioDefault2" value="Delivery">
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Delivery to Doorstep
-                    </label>
-                  </div>
-              <div class="form-row">
+              <div class="confirm form-row">
                 <div class="form-group col-md-6">
                   <label for="inputname4">Full names</label>
                   <input type="text" class="form-control" id="inputname4" placeholder="Full name.." required>
                 </div>
               </div>
-                <div class="form-group col-md-4">
-                  <label for="inputState">State</label>
+                <div class="confirm form-group col-md-4">
+                  <label for="inputState">Branch</label>
                   <select id="inputState" class="form-control"required>
                     <option selected>Choose...</option>
                     <option value="100">Thika Road</option>
@@ -113,7 +107,6 @@
                     <option value="100">CBD</option>
                   </select>
                 </div>
-              </div>
               <button type="submit" class="checkout btn btn-primary">Checkout</button>
             </form>
         </div>
@@ -122,6 +115,7 @@
       <p id="summary1"></p>
       <p id="summary2"></p>
       <p id="summary"></p>
+      <p id="summary3"></p>
       <p><span class="output"></span></p>
     </div>
     <div class="contact text-center pt-5 pb-5">
