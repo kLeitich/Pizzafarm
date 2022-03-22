@@ -46,20 +46,20 @@
         </div>
         <div class="pizza1 col-md-4">
           <form class="input text" id="userInput">
-            <select class="form-select" id="size">
+            <select class="form-select" id="size" required>
                 <option selected>Open this select size</option>
                 <option value="200">small</option>
                 <option value="300">medium</option>
                 <option value="400">large</option>
                 <option value="500">Xlarge</option>
               </select>
-              <select class="form-select" id="crust">
+              <select class="form-select" id="crust" required>
                 <option selected>Open this select pizza crust</option>
                 <option value="150">Crispy</option>
                 <option value="300">Stuffed</option>
                 <option value="200">Gluten-free</option>
               </select>
-              <select class="form-select" id="toppings">
+              <select class="form-select" id="toppings" required>
                 <option selected>Open this select pizza toppings</option>
                 <option value="300">Pepperoni</option>
                 <option value="250">Mushroom</option>
@@ -75,7 +75,7 @@
                 <option value="300">Hawaiinian</option>
               </select>
               <label for="noOfPizza">Number of pizza:</label>
-                <input type="number" id="noOfPizza" name="noOfPizza"><br>
+                <input type="number" id="noOfPizza" name="noOfPizza" required><br>
               <button type="submit" class=" placeorder btn btn-primary">Place order</button>
           </form>
         </div>
@@ -97,12 +97,12 @@
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="inputname4">Full names</label>
-                  <input type="text" class="form-control" id="inputname4" placeholder="Full name..">
+                  <input type="text" class="form-control" id="inputname4" placeholder="Full name.." required>
                 </div>
               </div>
                 <div class="form-group col-md-4">
                   <label for="inputState">State</label>
-                  <select id="inputState" class="form-control">
+                  <select id="inputState" class="form-control"required>
                     <option selected>Choose...</option>
                     <option value="100">Thika Road</option>
                     <option value="100">Mombasa Road</option>
