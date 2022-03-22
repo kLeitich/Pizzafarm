@@ -49,7 +49,7 @@ form.addEventListener('submit',(event)=>{
     event.preventDefault();
     let userOrder = new Pizza(size.value,crust.value,toppings.value,noOfPizza.value,delivery.value)
     const amount = userOrder.totalAmount();
-
     output.append( 'Your TOTAL IS:'+ amount+ " KSh");
+    alert("Your order has been recieved")
   
   });
